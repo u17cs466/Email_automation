@@ -286,7 +286,7 @@
             <av:Size x:Key="ShapeSize">200,84.66666666666667</av:Size>
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
-        <Sequence sap:VirtualizedContainerService.HintSize="642,745.3333333333334" sap2010:WorkflowViewState.IdRef="Sequence_12">
+        <Sequence sap:VirtualizedContainerService.HintSize="200,84.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_12">
           <Sequence.Variables>
             <Variable x:TypeArguments="sd:DataTable" Name="database" />
           </Sequence.Variables>
@@ -335,6 +335,21 @@
               </ActivityAction>
             </ui:ExcelApplicationScope.Body>
           </ui:ExcelApplicationScope>
+        </Sequence>
+      </FlowStep>
+      <FlowStep>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <av:Point x:Key="ShapeLocation">60,258.54</av:Point>
+            <av:Size x:Key="ShapeSize">200,84.66666666666667</av:Size>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Sequence sap:VirtualizedContainerService.HintSize="200,84.66666666666667" sap2010:WorkflowViewState.IdRef="Sequence_18">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
         </Sequence>
       </FlowStep>
     </Flowchart>
